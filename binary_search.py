@@ -23,6 +23,8 @@ def binary_search(l,target, low=None, high=None):
         return binary_search(l,target, low, middle-1)
     else:
         return binary_search(l,target, middle+1, high)
+    
+    
 
 
 if __name__== '__main__':
